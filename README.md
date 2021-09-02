@@ -1,7 +1,7 @@
 # ComposeShadow
 Jetpack Compose 的阴影（Shadow）实现，支持颜色、偏移和模糊半径。
 
-具体实现请查看 `[Shadow.kt](./app/src/main/java/com/itaqhi/compose/shadow/ui/util/Shadow.kt)`。
+具体实现请查看 [Shadow.kt](./app/src/main/java/com/itaqhi/compose/shadow/ui/util/Shadow.kt)。
 
 示例代码：
 ```kotlin
