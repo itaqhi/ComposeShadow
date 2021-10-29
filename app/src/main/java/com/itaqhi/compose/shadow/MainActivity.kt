@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.itaqhi.compose.shadow.ui.theme.ComposeShadowTheme
+import com.itaqhi.compose.shadow.ui.util.SoftSurface
 import com.itaqhi.compose.shadow.ui.util.shadow
 
 class MainActivity : ComponentActivity() {
@@ -27,12 +28,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeShadowTheme {
-                Shadows()
+                SoftSurface {
+                    Shadows()
+                }
             }
         }
     }
 }
-
 
 @Composable
 fun Shadows() {
