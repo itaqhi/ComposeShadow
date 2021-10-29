@@ -23,6 +23,8 @@ Box(
 )
 ```
 
+在 API 28 以下需要关闭硬件加速，如果您没有更好的方式，可以试试这个 [Surface.kt](./app/src/main/java/com/itaqhi/compose/shadow/ui/util/Surface.kt)。
+
 # 截图
 
 ![Screenshot](./screenshot/screenshot.png "Screenshot.png")  
